@@ -36,6 +36,7 @@ ul,
 a {
   list-style: none;
   text-decoration: none;
+  color: #000;
   font-size: 16px;
   font-weight: 500;
 }
@@ -107,19 +108,77 @@ a {
 }
 
 .text p {
-    max-width: 1360px;
+  max-width: 1360px;
   line-height: 24px;
   font-size: 16px;
- 
 }
 
-
 .btn2 {
-     margin-top: 24px;
+  margin-top: 24px;
   border: solid 1px white;
   padding: 16px 12px;
   background: transparent;
   color: white;
   border-radius: 4px;
   margin-left: 5px;
+}
+
+#notes {
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;  
+}
+
+#notes .notes-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 35px;
+}
+
+#notes .notes-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+    color: #627382;
+}
+
+#notes .card-container{
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+#notes .card-container .card {
+    max-width: 322px;
+    max-height: 300px;
+    padding: 24px 24px;
+    border-radius: 8px;
+    box-shadow:-1px 0 1px rgba(0,0,0,0.01),
+       1px 0 0px rgba(0,0,0,0.1),
+       0 -1px 3px rgba(0,0,0,0.1);
+}
+
+#notes .card-container .card .img {
+    background: #F95555;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+#notes .card-container .card h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+#notes .card-container .card p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+    color: #627382;
 }
