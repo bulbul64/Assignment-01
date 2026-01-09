@@ -12,6 +12,7 @@ body {
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 .inline {
@@ -181,4 +182,43 @@ a {
     line-height: 20px;
     margin-top: 16px;
     color: #627382;
+}
+
+#brain .brain-container{
+    max-width: 1360px;
+    gap: 60px;
+    margin-top: 120px;
+}
+
+.brain-container .first-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #30B868;
+}
+
+.brain-container .last-p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.brain-container h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.brain-container ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #001931;
+    margin-bottom: 16px;
+    
+}
+
+.brain-container ul li i {
+    color: #30B868;
 }
